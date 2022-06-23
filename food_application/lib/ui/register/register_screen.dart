@@ -103,7 +103,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     children: [
                       const Flexible(
                         child: Text(
-                          "Kullanıcı sözleşmesini kabul ediyorum.",
+                          "I accept the user agreement.",
                           style: TextStyle(
                             fontStyle: FontStyle.italic,
                           ),
