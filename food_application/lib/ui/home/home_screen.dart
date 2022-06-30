@@ -11,7 +11,11 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(),
+      body: Center(
+        child: Text(
+          "Anasayfa",
+        ),
+      ),
     );
   }
 }

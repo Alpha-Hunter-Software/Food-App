@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_application/ui/home/home_screen.dart';
+import 'package:food_application/ui/menu/menu_screen.dart';
 import 'package:food_application/ui/register/register_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -75,17 +75,17 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               MaterialButton(
                 onPressed: () {
-                  if (emailController.text == emailRight &&
-                      passwordController.text == passwordRight) {
-                    Navigator.pushAndRemoveUntil(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => HomeScreen(),
-                        ),
-                        (route) => false);
-                  } else {
-                    print("Yanlış");
-                  }
+                  // if (emailController.text == emailRight &&
+                  //     passwordController.text == passwordRight) {
+                  Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => MenuScreen(),
+                      ),
+                      (route) => false);
+                  // } else {
+                  //   print("Yanlış");
+                  // }
                 },
                 child: Container(
                   width: size.width,
