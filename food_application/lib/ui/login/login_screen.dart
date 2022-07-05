@@ -49,7 +49,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       obscureText: isHide,
                       decoration: InputDecoration(
                         hintText: "Password",
-                        prefixIcon: const Icon(Icons.key, color: Colors.orange),
+                        prefixIcon:
+                            const Icon(Icons.vpn_key, color: Colors.orange),
                         suffixIcon: InkWell(
                           onTap: () {
                             setState(() {

@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: ListTile(
                       title: Text("Salata"),
                       subtitle: Text("Marul, domates, salatalık içerir."),
-                      leading: Icon(Icons.flood),
+                      leading: Icon(Icons.add),
                       trailing: Icon(Icons.favorite),
                     ),
                   ),
@@ -56,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: ListTile(
                       title: Text("Salata"),
                       subtitle: Text("Marul, domates, salatalık içerir."),
-                      leading: Icon(Icons.flood),
+                      leading: Icon(Icons.add),
                       trailing: Icon(Icons.favorite),
                     ),
                   ),
@@ -64,7 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: ListTile(
                       title: Text("Salata"),
                       subtitle: Text("Marul, domates, salatalık içerir."),
-                      leading: Icon(Icons.flood),
+                      leading: Icon(Icons.add),
                       trailing: Icon(Icons.favorite),
                     ),
                   ),
@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: ListTile(
                       title: Text("Salata"),
                       subtitle: Text("Marul, domates, salatalık içerir."),
-                      leading: Icon(Icons.flood),
+                      leading: Icon(Icons.add),
                       trailing: Icon(Icons.favorite),
                     ),
                   ),
@@ -80,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: ListTile(
                       title: Text("Salata"),
                       subtitle: Text("Marul, domates, salatalık içerir."),
-                      leading: Icon(Icons.flood),
+                      leading: Icon(Icons.add),
                       trailing: Icon(Icons.favorite),
                     ),
                   ),
