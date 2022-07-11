@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_application/ui/favorite/favorite_screen.dart';
 import 'package:food_application/ui/home/home_screen.dart';
 import 'package:food_application/ui/profile/profile_screen.dart';
+import 'package:food_application/ui/zafer_profile/profilefood.dart';
 
 class MenuScreen extends StatefulWidget {
   MenuScreen({Key? key}) : super(key: key);
@@ -32,7 +33,7 @@ class _MenuScreenState extends State<MenuScreen> {
             ? HomeScreen()
             : _currentIndex == 1
                 ? FavoriteScreen()
-                : ProfileScreen(),
+                : Profilefood(),
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: const [

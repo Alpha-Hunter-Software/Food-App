@@ -30,7 +30,6 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: Column(
                   children: [
                     TextField(
-                      controller: emailController,
                       keyboardType: TextInputType.emailAddress,
                       textInputAction: TextInputAction.next,
                       decoration: InputDecoration(
